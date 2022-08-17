@@ -13,14 +13,16 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl 
                 font-bold text-white'>I'm a Full Stack Developer.</h2>
                 <p className='text-gray-400 py-4 max-w-md'>
-                    I have less than 1 year of experience building & designing
+                    I have just about 6 months of experience building & designing
                     software. Currently, I love to work on web applications
-                    using technologies like React and Tailwind.
+                    using technologies like React and Tailwind. I am also
+                    very interested in the Web3 space and have been active within
+                    the community on the Solana blockchain for about a year and a half.
                 </p>
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 
                     flex items-center rounded-md bg-gradient-to-r 
-                    from-cyan-500 to-blue-500 cursor-pointer'>
+                    from-black to-gray-600 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={25} className='
