@@ -21,8 +21,7 @@ const Home = () => {
                 </p>
                 <div>
                     <button className='group text-white w-fit px-6 py-3 my-2 
-                    flex items-center rounded-md bg-gradient-to-r 
-                    from-black to-gray-600 cursor-pointer'>
+                    flex items-center rounded-md bg-gradient-to-br from-black via-gray-800 to-gray-600 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
                             <MdOutlineKeyboardArrowRight size={25} className='
