@@ -17,12 +17,6 @@ const About = () => {
                  quibusdam? Repellat nihil corporis sit minima esse, officiis ducimus accusantium ratione, nam, modi quia.
             </p>
             <br />
-            <p className='text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem eveniet quibusdam? Officia minima maiores eaque qui 
-                corporis optio vel, est explicabo officiis 
-                accusamus! Ullam cupiditate ipsum possimus dolore nobis recusandae ratione eligendi dignissimos ad provident. 
-                Nulla distinctio magni cumque consequatur quisquam placeat numquam amet dolore delectus debitis! Assumenda, minima!
-            </p>
         </div>
     </div>
   )
