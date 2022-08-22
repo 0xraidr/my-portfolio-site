@@ -11,10 +11,10 @@ const About = () => {
                 border-gray-500'>About</h2> 
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos 
-                quis nisi quam, quasi, ipsa officiis numquam atque voluptatem amet saepe error veritatis 
-                nobis. Amet dolores officiis numquam qui pariatur mollitia, nisi optio eos officia! Deleniti,
-                 quibusdam? Repellat nihil corporis sit minima esse, officiis ducimus accusantium ratione, nam, modi quia.
+            Crypto and the Web3 space as a whole was what attracted me to tech and learning to code. Ever since meeting friends in 
+            Solana's community I've been scavenging the internet for learning material and things to become a better developer.
+            I've actually been active within the community on the Solana blockchain for about a year and a half. I've also 
+            built smooth front end minting experiences for NFT projects using Metaplex's Candy Machine.
             </p>
             <br />
         </div>

@@ -12,3 +12,36 @@
     font-family: 'Share Tech Mono', monospace;
   }
 }
+
+/*
+.text{
+  position: relative;
+  transform: translate(-50%, -50%);
+  border-right: 4px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.animation{
+animation: typewriter 3s steps(27) 1s infinite both,
+           blinkCursor 500ms steps(27) infinite;
+}
+
+@keyframes typewriter {
+from {
+  width: 0;
+}
+to {
+  width: 500px;
+}
+}
+
+@keyframes blinkCursor{
+from {
+  border-right-color: black;
+}
+to {
+  border-right-color: transparent;
+}
+}
+*/

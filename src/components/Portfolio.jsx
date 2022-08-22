@@ -7,19 +7,31 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: bankSite
+            src: bankSite,
+            demo: 'https://modsite-taupe.vercel.app/',
+            code: 'https://github.com/0xraidr/modsite',
+
         },
         {
             id: 2,
-            src: bankSite
+            src: bankSite,
+            href: 'https://modsite-taupe.vercel.app/',
+            code: 'https://github.com/0xraidr/modsite',
+
         },
         {
             id: 3,
-            src: bankSite
+            src: bankSite,
+            demo: 'https://modsite-taupe.vercel.app/',
+            code: 'https://github.com/0xraidr/modsite',
+
         },
         {
             id: 4,
-            src: bankSite
+            src: bankSite,
+            demo: 'https://modsite-taupe.vercel.app/',
+            code: 'https://github.com/0xraidr/modsite',
+
         },
     ]
 
@@ -42,15 +54,15 @@ const Portfolio = () => {
          px-12 sm:px-0'>
 
 {
-            portfolios.map(({id, src}) => (
+            portfolios.map(({id, src, demo, code}) => (
 
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                 <img src={src} alt='modsite' className='rounded-md
                  duration-200 hover:scale-105' />
                 <div className='flex items-center justify-center'>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200
+                    <button href={demo} target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200
                     hover:scale-105'>Demo</button>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200
+                    <button href={code} target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200
                     hover:scale-105'>Code</button>
                 </div>
             </div>
