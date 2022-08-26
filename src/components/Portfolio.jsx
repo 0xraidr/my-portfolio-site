@@ -1,5 +1,6 @@
 import React from 'react'
 import bankSite from '../assets/portfolio/modernbanksite.png'
+import candyCrush from '../assets/candycrush.png'
 
 
 const Portfolio = () => {
@@ -14,9 +15,9 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: bankSite,
-            href: 'https://modsite-taupe.vercel.app/',
-            code: 'https://github.com/0xraidr/modsite',
+            src: candyCrush,
+            demo: 'https://candy-crush-omega.vercel.app/',
+            code: 'https://github.com/0xraidr/candy_crush',
 
         },
         {
