@@ -2,6 +2,8 @@ import React from 'react'
 import heroPic from '../assets/heropic.png';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
+
 
 const Home = () => {
   return (
@@ -11,14 +13,20 @@ const Home = () => {
          flex-col items-center justify-center h-full px-4
          md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
+            <Fade left big>
                 <h2 className=' animation text text-4xl sm:text-7xl 
-                font-bold text-white'>I'm a Full Stack Developer.</h2>
+                font-bold text-white'>I'm a Full Stack Developer.
+                </h2>
+            </Fade>
+            <Fade right big>
                 <p className='text-gray-400 py-4 max-w-md'>
                     I have just about 6 months of experience building & designing
                     software. Currently, I love to work on web applications
                     using technologies like React and Tailwind.
                 </p>
+                </Fade>
                 <div>
+                <Fade bottom>
                     <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 
                     flex items-center rounded-md bg-gradient-to-br from-black via-gray-800 to-gray-600 cursor-pointer'>
                         Portfolio
@@ -27,12 +35,15 @@ const Home = () => {
                             ml-1' />
                         </span>
                     </Link>
+                    </Fade>
                 </div>
             </div>
 
             <div>
+            <Fade bottom>
                 <img src={heroPic} alt="my profile" className='
                 rounded-full mx-auto w-2/3 md:w-full'/>
+            </Fade>
             </div>
 
         </div>
