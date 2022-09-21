@@ -40,10 +40,10 @@ const Home = () => {
             </div>
 
             <div>
-            <Fade bottom>
+            
                 <img src={heroPic} alt="my profile" className='
                 rounded-full mx-auto w-2/3 md:w-full'/>
-            </Fade>
+            
             </div>
 
         </div>
