@@ -1,6 +1,7 @@
 import React from 'react'
 import bankSite from '../assets/portfolio/modernbanksite.png'
 import candyCrush from '../assets/candycrush.png'
+import solanaSurfers from '../assets/solanasurfers.png';
 
 
 const Portfolio = () => {
@@ -15,25 +16,18 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: candyCrush,
-            demo: 'https://candy-crush-omega.vercel.app/',
-            code: 'https://github.com/0xraidr/candy_crush',
+            src: solanaSurfers,
+            demo: 'https://solana-surfers.vercel.app/',
+            code: 'https://github.com/0xraidr/solana-surfers',
 
         },
         {
             id: 3,
-            src: bankSite,
-            demo: 'https://modsite-taupe.vercel.app/',
-            code: 'https://github.com/0xraidr/modsite',
+            src: candyCrush,
+            demo: 'https://candy-crush-omega.vercel.app/',
+            code: 'https://github.com/0xraidr/candy_crush',
 
-        },
-        {
-            id: 4,
-            src: bankSite,
-            demo: 'https://modsite-taupe.vercel.app/',
-            code: 'https://github.com/0xraidr/modsite',
-
-        },
+        }
     ]
 
 
