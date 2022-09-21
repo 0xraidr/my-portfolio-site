@@ -8,7 +8,7 @@ const Home = () => {
     <div name='home' className='h-screen w-full bg-gradient-to-b
      from-black via-black to-slate-800'>
         <div className='max-w-screen-lg max-auto flex
-         flex-col items-center justify-center h-full px-4 
+         flex-col items-center justify-center h-full px-4
          md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className=' animation text text-4xl sm:text-7xl 
