@@ -3,12 +3,12 @@ import React from 'react'
 const Contact = () => {
   return (
     <div name='contact' className='w-full h-screen
-     bg-gradient-to-b from-black to-gray-600 p-4 text-white'>
+     bg-gradient-to-b from-black to-slate-800 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center
          max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
                 <h2 className='text-4xl font-bold inline border-b-4
-                 border-gray-600'>Contact</h2>
+                 border-slate-800'>Contact</h2>
                 <p className='py-6'>Submit the form below to get in touch with me.</p>
             </div>
             <div className='flex justify-center items-center'>
