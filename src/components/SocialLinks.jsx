@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from 'react-icons/fa';
+import { FaTwitter } from "react-icons/fa";
 
 const SocialLinks = () => {
   const links = [
@@ -24,21 +24,19 @@ const SocialLinks = () => {
       href: "https://github.com/0xraidr",
     },
     {
-        id: 2,
-        child: (
-          <>
-            Twitter <FaTwitter size={30} />
-          </>
-        ),
-        href: "https://twitter.com/0xraidr",
-        style:"rounded-br-md"
-      },
-    
-    
+      id: 2,
+      child: (
+        <>
+          Twitter <FaTwitter size={30} />
+        </>
+      ),
+      href: "https://twitter.com/0xraidr",
+      style: "rounded-br-md",
+    },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[5%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
