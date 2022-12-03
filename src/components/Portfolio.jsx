@@ -65,7 +65,10 @@ const Portfolio = () => {
             >
               Portfolio
             </h2>
-            <p className="py-6">Check out some of my work here.</p>
+            <p className="py-6">
+              Check out some of my work here. (Some projects may need updating
+              but I left links to the code.)
+            </p>
           </Fade>
         </div>
 
